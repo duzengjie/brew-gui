@@ -1,0 +1,103 @@
+"app.name" = "Brew GUI";
+"menu.open.docs" = "打开 Homebrew 文档";
+
+"tab.search" = "搜索";
+"tab.packages" = "软件包";
+"tab.maintenance" = "维护";
+"tab.advanced" = "高级";
+
+"header.title" = "Homebrew 控制中心";
+"status.running" = "正在运行 %@";
+"status.last.success" = "上一条命令已成功完成";
+"status.last.exit" = "上一条命令退出码为 %d";
+"status.ready" = "准备管理 formula 和 cask";
+
+"button.stop" = "停止";
+"button.docs" = "文档";
+"button.search" = "搜索";
+"button.info" = "详情";
+"button.install" = "安装";
+"button.upgrade" = "升级";
+"button.uninstall" = "卸载";
+"button.refresh.list" = "刷新列表";
+"button.update" = "更新";
+"button.upgrade.all" = "全部升级";
+"button.config" = "配置";
+"button.doctor" = "诊断";
+"button.help" = "帮助";
+"button.commands" = "命令";
+"button.run.debug.install" = "调试安装";
+"button.create" = "创建";
+"button.edit" = "编辑";
+"button.open.docs.site" = "打开 docs.brew.sh";
+"button.clear" = "清空";
+"button.run.again" = "再次运行";
+
+"toggle.regex" = "正则";
+"toggle.no.fetch" = "不抓取";
+
+"search.card.title" = "搜索";
+"search.card.subtitle" = "执行 brew search TEXT 或 brew search /REGEX/。";
+"search.placeholder" = "软件包名称或正则";
+
+"results.card.title" = "结果";
+"results.card.subtitle" = "选择结果后可查看详情或安装。";
+"results.empty.title" = "暂无结果";
+"results.empty.description" = "搜索 Homebrew formula 和 cask 后会显示在这里。";
+
+"packages.card.title" = "Formula 和 Cask";
+"packages.card.subtitle" = "输入一个或多个名称，支持带引号的名称。";
+"packages.placeholder" = "wget visual-studio-code \"font-fira-code\"";
+
+"installed.card.title" = "已安装";
+"installed.card.subtitle" = "执行 brew list 后，选择已安装项目进行快捷操作。";
+"installed.empty.title" = "已安装列表为空";
+"installed.empty.description" = "刷新列表以显示已安装的 formula 和 cask。";
+
+"maintenance.card.title" = "日常维护";
+"maintenance.card.subtitle" = "保持 Homebrew 本身和已安装软件包为最新。";
+"troubleshooting.card.title" = "故障排查";
+"troubleshooting.card.subtitle" = "查看配置并运行 brew doctor 诊断。";
+"help.card.title" = "帮助";
+"help.card.subtitle" = "浏览可用命令，或查看某条命令的帮助。";
+"help.placeholder" = "install, search, upgrade...";
+
+"advanced.debug.card.title" = "详细调试安装";
+"advanced.debug.card.subtitle" = "执行 brew install --verbose --debug FORMULA|CASK。";
+"advanced.debug.placeholder" = "formula 或 cask";
+"advanced.create.card.title" = "创建 Formula";
+"advanced.create.card.subtitle" = "执行 brew create URL，可选择 --no-fetch。";
+"advanced.edit.card.title" = "编辑 Formula 或 Cask";
+"advanced.edit.card.subtitle" = "使用你配置的编辑器执行 brew edit [FORMULA|CASK...]。";
+"advanced.edit.placeholder" = "可选 formula 或 cask 名称";
+"docs.card.title" = "文档";
+"docs.card.subtitle" = "在浏览器中打开 Homebrew 官方文档。";
+
+"console.output" = "输出";
+"console.history" = "历史";
+"history.empty" = "运行过的命令会显示在这里。";
+
+"command.search" = "搜索 %@";
+"command.info" = "详情";
+"command.install" = "安装";
+"command.install.debug" = "调试安装";
+"command.update" = "更新";
+"command.upgrade.all" = "全部升级";
+"command.upgrade" = "升级";
+"command.uninstall" = "卸载";
+"command.list.installed" = "列出已安装";
+"command.list" = "列表";
+"command.config" = "配置";
+"command.doctor" = "诊断";
+"command.create.formula" = "创建 Formula";
+"command.edit" = "编辑";
+"command.edit.formula.cask" = "编辑 Formula/Cask";
+"command.commands" = "命令";
+"command.help" = "帮助";
+"command.help.specific" = "%@ 帮助";
+
+"error.brew.not.found" = "找不到 brew 可执行文件。请安装 Homebrew，或设置包含 brew 的 PATH。";
+"error.already.running" = "已有一条 brew 命令正在运行。";
+"error.launch.failed" = "启动 brew 失败：%@";
+"output.exit.code" = "brew 已退出，退出码 %d";
+"output.error" = "错误";

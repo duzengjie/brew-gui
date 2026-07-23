@@ -1,0 +1,103 @@
+"app.name" = "Brew GUI";
+"menu.open.docs" = "Open Homebrew Docs";
+
+"tab.search" = "Search";
+"tab.packages" = "Packages";
+"tab.maintenance" = "Maintenance";
+"tab.advanced" = "Advanced";
+
+"header.title" = "Homebrew Control Center";
+"status.running" = "Running %@";
+"status.last.success" = "Last command completed successfully";
+"status.last.exit" = "Last command exited with code %d";
+"status.ready" = "Ready to manage formulae and casks";
+
+"button.stop" = "Stop";
+"button.docs" = "Docs";
+"button.search" = "Search";
+"button.info" = "Info";
+"button.install" = "Install";
+"button.upgrade" = "Upgrade";
+"button.uninstall" = "Uninstall";
+"button.refresh.list" = "Refresh List";
+"button.update" = "Update";
+"button.upgrade.all" = "Upgrade All";
+"button.config" = "Config";
+"button.doctor" = "Doctor";
+"button.help" = "Help";
+"button.commands" = "Commands";
+"button.run.debug.install" = "Run Debug Install";
+"button.create" = "Create";
+"button.edit" = "Edit";
+"button.open.docs.site" = "Open docs.brew.sh";
+"button.clear" = "Clear";
+"button.run.again" = "Run Again";
+
+"toggle.regex" = "Regex";
+"toggle.no.fetch" = "No fetch";
+
+"search.card.title" = "Search";
+"search.card.subtitle" = "Run brew search TEXT or brew search /REGEX/.";
+"search.placeholder" = "Package name or regex";
+
+"results.card.title" = "Results";
+"results.card.subtitle" = "Select a result to inspect or install it.";
+"results.empty.title" = "No results yet";
+"results.empty.description" = "Search Homebrew formulae and casks to populate this list.";
+
+"packages.card.title" = "Formulae and Casks";
+"packages.card.subtitle" = "Enter one or more names. Quoted names are supported.";
+"packages.placeholder" = "wget visual-studio-code \"font-fira-code\"";
+
+"installed.card.title" = "Installed";
+"installed.card.subtitle" = "Run brew list, then select an installed item for quick actions.";
+"installed.empty.title" = "Installed list is empty";
+"installed.empty.description" = "Refresh the list to show installed formulae and casks.";
+
+"maintenance.card.title" = "Routine Maintenance";
+"maintenance.card.subtitle" = "Keep Homebrew itself and installed packages current.";
+"troubleshooting.card.title" = "Troubleshooting";
+"troubleshooting.card.subtitle" = "Inspect configuration and run brew doctor diagnostics.";
+"help.card.title" = "Help";
+"help.card.subtitle" = "Browse available commands or request help for a specific command.";
+"help.placeholder" = "install, search, upgrade...";
+
+"advanced.debug.card.title" = "Verbose Debug Install";
+"advanced.debug.card.subtitle" = "Run brew install --verbose --debug FORMULA|CASK.";
+"advanced.debug.placeholder" = "formula or cask";
+"advanced.create.card.title" = "Create Formula";
+"advanced.create.card.subtitle" = "Run brew create URL with optional --no-fetch.";
+"advanced.edit.card.title" = "Edit Formula or Cask";
+"advanced.edit.card.subtitle" = "Run brew edit [FORMULA|CASK...] using your configured editor.";
+"advanced.edit.placeholder" = "optional formula or cask names";
+"docs.card.title" = "Documentation";
+"docs.card.subtitle" = "Open the official Homebrew documentation in your browser.";
+
+"console.output" = "Output";
+"console.history" = "History";
+"history.empty" = "Commands you run will appear here.";
+
+"command.search" = "Search %@";
+"command.info" = "Info";
+"command.install" = "Install";
+"command.install.debug" = "Install with Debug";
+"command.update" = "Update";
+"command.upgrade.all" = "Upgrade All";
+"command.upgrade" = "Upgrade";
+"command.uninstall" = "Uninstall";
+"command.list.installed" = "List Installed";
+"command.list" = "List";
+"command.config" = "Config";
+"command.doctor" = "Doctor";
+"command.create.formula" = "Create Formula";
+"command.edit" = "Edit";
+"command.edit.formula.cask" = "Edit Formula/Cask";
+"command.commands" = "Commands";
+"command.help" = "Help";
+"command.help.specific" = "Help %@";
+
+"error.brew.not.found" = "Could not find the brew executable. Install Homebrew or set a PATH that includes brew.";
+"error.already.running" = "A brew command is already running.";
+"error.launch.failed" = "Failed to launch brew: %@";
+"output.exit.code" = "brew exited with code %d";
+"output.error" = "error";
